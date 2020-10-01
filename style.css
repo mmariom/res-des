@@ -1,0 +1,81 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+  }
+
+.col-md-12{
+    background-color:rgb(214, 211, 23);
+    color: rgb(14, 13, 13);
+}
+
+@media screen and (max-width: 600px) {
+	.col-md-12 {
+	  background-color: rgb(92, 163, 221);
+	}
+}
+	
+@media screen and (max-width: 992px) {
+  .col-md-12 {
+    background-color: rgb(253, 148, 227);
+  }
+}
+
+/*--- navigation bar ---*/
+.nav-link,
+.navbar-brand {
+	color: rgb(12, 12, 12);
+	cursor: pointer;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+/*--- feature section ---*/
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img {
+		width: 100%;
+		height: auto;
+}
+
+.features .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+}
+
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+
